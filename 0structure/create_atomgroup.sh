@@ -16,5 +16,4 @@ cpptraj -i input/atominfo.cpptraj
 python3 generate_atomgroup_sidechain.py \
     --sidechain-filename output/atomgroup_side.dat \
     --residue-filename output/atomgroup_residue.dat \
-    --atominfo-filename output/atominfo.dat \
-    --no-separated-residues 1 2
+    --atominfo-filename output/atominfo.dat
